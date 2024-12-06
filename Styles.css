@@ -1,0 +1,82 @@
+html{
+    background-image: linear-gradient(to left, skyblue 0%,  blue 100%);
+}
+
+body{
+    overflow-x: hidden;
+
+}
+span{
+    display: none;
+}
+
+
+
+p{
+    color: white;
+    border-bottom: 4px solid white;
+    height: fit-content;
+    width: fit-content;
+    margin: 20px;
+    width: 25px;
+  display: inherit;
+  height: 22px;
+}
+
+
+#root{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.hangstand{
+  width: 40%;
+  
+}
+
+.button{
+    width: 60%;
+    padding: 4%;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   height: 55vh;
+}
+
+button{
+    background-color: lightcyan;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0px 0px 5px black;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px 20px;
+    font-size: 2rem;
+    font-style: bold;
+    font-weight: 600px;
+    
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+
+.fill-Blanks{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.availablebtn{
+    background-color: green;
+    color: white;
+}
+
+.notavailablebtn{
+    background-color: red;
+    color: white;
+}
